@@ -11,11 +11,11 @@ Guide research teams from a question to a supportable output. Produce clear, evi
 
 ## Required workflow
 
-1. Read `references/safety-and-boundaries.md` before drafting, editing, reviewing, or planning.
+1. Read `references/safety-and-compliance.md` before drafting, editing, reviewing, or planning. For prototype work, also read `references/safety-and-boundaries.md`.
 2. For a new project or an unclear next step, read `skills/navigator/SKILL.md` and create `templates/project-status.md` before drafting.
 3. Classify the request using the routing table.
-4. Check `references/intake-requirements.md`. Ask no more than three targeted questions if essential inputs are missing; otherwise use explicit `[NEEDS INPUT]` markers.
-5. Read the matching section of `references/prompts.md` and `references/reporting-map.md`.
+4. Check `references/minimum-inputs.md` for manuscript tasks and `references/intake-requirements.md` for prototype/conference tasks. Ask no more than three targeted questions if essential inputs are missing; otherwise use explicit `[NEEDS INPUT]` markers.
+5. Read the matching section of `references/prompts.md`, `references/reporting-map.md`, and (when relevant) `references/journal-requirements.md` or `references/medical-terminology.md`.
 6. For numerical analyses, results, sample-size work, outcome claims, or visualization, use `skills/analytics/SKILL.md` (or `analytics/SKILL.md`) and its matching reference.
 7. For an artifact review, use `skills/red-team/SKILL.md` and create `templates/gap-register.md`.
 8. Draft only from supplied facts. Separate facts, assumptions, and proposed language using `core/evidence-ledger.md`.
@@ -24,23 +24,23 @@ Guide research teams from a question to a supportable output. Produce clear, evi
 
 ## Routing
 
-| User need | Track | Prompt |
+| User need | Track | Prompt / skill |
 |---|---|---|
-| Plan a small clinical study or pilot | Clinical study | 1 |
-| Prepare a feasibility or pilot-study protocol | Clinical study | 2 |
-| Outline a sample-size rationale or analysis plan | Clinical study | 3 |
-| Create or improve an abstract | Conference | 4 |
-| Build a poster, talk, or proceedings manuscript | Conference | 5 |
-| Prepare conference submission materials | Conference | 6 |
-| Plan prototype evidence generation | Device prototype | 7 |
-| Summarize bench, usability, or feasibility findings | Device prototype | 8 |
-| Review a draft for evidence/reporting gaps | Any | 9 |
-| Audit study data, plan analyses, create tables, or specify figures | Statistical analytics | analytics/SKILL.md |
-| Identify the current stage or plan the research journey | Navigation | skills/navigator/SKILL.md |
-| Create a protocol or feasibility blueprint | Protocol design | skills/protocol/SKILL.md |
-| Review a draft as a skeptical reviewer | Red-team review | skills/red-team/SKILL.md |
-| Turn evidence into a conference abstract, poster, talk, or proceedings paper | Conference studio | skills/conference/SKILL.md |
-| Test whether a conclusion is supported by the evidence | Claim checker | skills/claim-checker/SKILL.md |
+| Design a clinical study | Study design | Prompt 1 |
+| Calculate sample size | Study design | Prompt 2 |
+| Draft abstract, introduction, methods, results, or discussion | Manuscript writing | Prompts 3–7 |
+| Translate Chinese ↔ English or polish academic language | Translation | Prompts 8–10 |
+| Plan statistics or select medical figures | Statistics and visualization | Prompts 11–12 + `skills/analytics/SKILL.md` |
+| Write a case report or systematic review | Special article | Prompts 13–14 |
+| Select a journal, prepare cover letter, or respond to reviewers | Submission | Prompts 15–17 |
+| Simulate peer review or run a pre-submission check | Quality review | Prompts 18–19 + `skills/red-team/SKILL.md` |
+| Draft lab methods or analyse public datasets | Basic research | Prompts 20–21 |
+| Identify the current stage or plan the research journey | Navigation | Prompt 22 + `skills/navigator/SKILL.md` |
+| Plan device-prototype evidence generation | Device prototype | Prompt 23 + `skills/protocol/SKILL.md` |
+| Audit data, plan analysis, or specify figures | Data and analytics | Prompt 24 + `skills/analytics/SKILL.md` |
+| Test whether a conclusion is supported by evidence | Claim checker | Prompt 25 + `skills/claim-checker/SKILL.md` |
+| Review a study artifact for prioritized shortcomings | Gap review | Prompt 26 + `skills/red-team/SKILL.md` |
+| Turn verified evidence into a conference abstract, poster, talk, or proceedings paper | Conference studio | `skills/conference/SKILL.md` |
 
 ## Safety boundaries
 

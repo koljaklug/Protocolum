@@ -77,5 +77,12 @@ The research logic lives in plain Markdown under `core/`, `skills/`, and `templa
 - Verify current conference instructions, institutional requirements, and applicable regulatory expectations from their official sources before submission.
 
 ## License
+Copyright (c) 2026 Kolja Klug
+
+Permission is hereby granted, free of charge, to any person who like me likes a guiding hand when it comes to study planing and writing...
+Please never use AI without close supervision making sure the integrity of your research is preserved.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 MIT License. See [LICENSE](LICENSE).

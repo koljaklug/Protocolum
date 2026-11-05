@@ -4,10 +4,6 @@
 
 Protocolum helps teams turn real study materials into clear, auditable research outputs. It identifies the study stage, guides the next decision, finds material shortcomings, and produces the next useful artifact. It is designed for investigator-initiated pilots, feasibility studies, first-in-human or usability-focused prototype work, and conference submissions—not as a substitute for an IRB, sponsor, biostatistician, clinical-trials office, or regulatory adviser.
 
-## Foundation
-
-Protocolum is built on the MIT-licensed [MedPen](https://github.com/Neuro-S/MedPen) clinical-paper skill by Neuro-S. It retains MedPen's mature manuscript, translation, submission, and quality workflows, then adds a guided evidence pathway for small studies and device prototypes. See [NOTICE.md](NOTICE.md) for attribution.
-
 ## What it supports
 
 | Track | Typical outputs |
